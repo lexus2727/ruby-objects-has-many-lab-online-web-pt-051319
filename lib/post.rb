@@ -11,7 +11,8 @@ class Post
     @@all
   end
   
-  def title
+  def posts
+    
   
   
 end
