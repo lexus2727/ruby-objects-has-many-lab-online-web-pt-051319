@@ -11,9 +11,7 @@ class Post
     @@all
   end
   
-  
-    
-   def post_name
+    def post_name
     self.artist.name if artist 
   
 end
