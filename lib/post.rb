@@ -15,6 +15,7 @@ class Post
     self.artist.name if artist 
   
 end
+end
 
 
 
