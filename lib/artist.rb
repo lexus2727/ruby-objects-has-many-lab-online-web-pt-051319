@@ -11,7 +11,7 @@ end
   song.artist = self
   end
   
-  def song
+  def songs
     @songs
   end
   
@@ -21,7 +21,7 @@ end
     song.artist = self
    end
   def self.song_count
-   @@all
- end
+    Song.all.count
+   end
   
 end
