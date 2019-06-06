@@ -1,6 +1,13 @@
 class Post
   attr_accessor :name, :author
+  @@all = []
   
+  def initialize(name)
+    @name = name
+    @@all = self #object goes into all
+  end
+  
+  def self.all
   
   
 end
