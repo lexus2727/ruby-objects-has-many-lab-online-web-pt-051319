@@ -13,7 +13,8 @@ class Post
   
   
     
-  
+   def post_name
+    self.artist.name if artist 
   
 end
 
